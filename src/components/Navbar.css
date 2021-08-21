@@ -1,0 +1,48 @@
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgb(53, 51, 51);
+    color: #fff;
+    padding: 7px;
+}
+.top-nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 4px;
+    margin-right: 2rem;
+}
+
+.fa-phone {
+    padding-right: 0.3rem;
+    color: orange;
+}
+.fa-lock {
+    padding-right: 0.3rem;
+    color: orange;
+}
+.fa-bars {
+    color: #000;
+}
+#icon {
+    vertical-align: middle;
+    margin-right: 2rem;
+}
+#logo {
+    width: 250px;
+    margin-top: 0.4rem;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: palegreen;
+}
