@@ -79,11 +79,15 @@
 
 #apply-now-btn {
     width: 200px;
-    padding: 3px 10px;
+    padding: 6px 10px;
     background: rgba(66, 137, 242);
     color: #fff;
     border-radius: 4px;
     text-shadow: 1px 1px 3px #333;
     font-weight: bold;
     font-size: 12px;
+}
+
+#apply-now-btn:hover {
+    background: rgb(37, 90, 169);
 }

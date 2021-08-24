@@ -1,3 +1,4 @@
+/* Hero Section */
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
         url(https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
@@ -54,4 +55,86 @@
 .sign-up a {
     color: inherit;
     margin-left: 0.2rem;
+}
+
+/* Second Section */
+
+.second-section {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 4rem 4rem;
+}
+
+.cards {
+    flex-basis: 33.33%;
+    padding: 1rem;
+    text-align: center;
+    width: 30%;
+}
+
+.cards h2 {
+    padding: 1rem 0 2rem 0;
+    color: rgb(53, 53, 148);
+    font-weight: lighter;
+}
+
+.fa-wallet {
+    color: rgb(53, 53, 148);
+}
+
+.fa-money-bill {
+    color: rgb(53, 53, 148);
+}
+
+.fa-business-time {
+    color: rgb(53, 53, 148);
+}
+
+/* Third Section */
+
+.third-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 720px;
+    width: 100%;
+}
+
+.personal-story-card {
+    flex-basis: 33.33%;
+}
+
+.personal-story-card:hover {
+    background-color: black;
+    opacity: 0.4;
+}
+
+#personal-story-1 {
+    background-image: url(https://images.unsplash.com/photo-1535295972055-1c762f4483e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+    width: 35%;
+}
+
+#personal-story-2 {
+    background-image: url(https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+    width: 35%;
+}
+
+#personal-story-3 {
+    background-image: url(https://images.unsplash.com/photo-1450297350677-623de575f31c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+    width: 35%;
 }

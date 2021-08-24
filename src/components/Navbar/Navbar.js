@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Navbar.css';
+import './Navbar.css';
 import logo from '../../images/Eagle_Finance_logo.png';
 
 export default function Navbar() {
@@ -12,18 +12,18 @@ export default function Navbar() {
     return (
         <div className='navbar-container'>
             <div className='top-nav'>
-                <a href='#'>
+                <a href='/phone-contact'>
                     {' '}
                     <i className='fa fa-phone'></i>1-888-100-1111
                 </a>
-                <a href='#'>
+                <a href='/sign-in'>
                     {' '}
                     <i className='fa fa-lock'></i>Sign In
                 </a>
             </div>
             <div className='nav-menu-container'>
                 <div id='nav-menu'>
-                    <a href='#'>
+                    <a href='/home'>
                         <img id='logo' src={logo} alt='Logo' />
                     </a>
                     <button onClick={handleChange} id='icon' href='#'>
@@ -47,7 +47,7 @@ export default function Navbar() {
                             <a href='/blog'>Blog</a>
                         </li>
                         <li>
-                            <a id='apply-now-btn' href='#'>
+                            <a id='apply-now-btn' href='/apply-now'>
                                 Apply Now
                             </a>
                         </li>
