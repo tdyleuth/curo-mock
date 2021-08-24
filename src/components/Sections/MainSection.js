@@ -5,7 +5,7 @@ function MainSection() {
     return (
         <>
             <div className='hero-section'>
-                <div id='main-message'>
+                <div className='main-message'>
                     <p>
                         <span className='orange-text'>Change</span>
                         <span> your life today with the help of </span>

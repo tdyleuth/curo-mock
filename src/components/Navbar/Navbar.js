@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import './Navbar.css';
 import logo from '../../images/Eagle_Finance_logo.png';
 
@@ -16,6 +17,7 @@ export default function Navbar() {
                     {' '}
                     <i className='fa fa-phone'></i>1-888-100-1111
                 </a>
+
                 <a href='/sign-in'>
                     {' '}
                     <i className='fa fa-lock'></i>Sign In

@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-#main-message {
+.main-message {
     display: flex;
     justify-content: center;
     color: #ffffff;
