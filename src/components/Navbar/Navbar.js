@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 import './Navbar.css';
 import logo from '../../images/Eagle_Finance_logo.png';
@@ -18,16 +19,15 @@ export default function Navbar() {
                     <i className='fa fa-phone'></i>1-888-100-1111
                 </a>
 
-                <a href='/sign-in'>
-                    {' '}
+                <NavLink to='/signin'>
                     <i className='fa fa-lock'></i>Sign In
-                </a>
+                </NavLink>
             </div>
             <div className='nav-menu-container'>
                 <div id='nav-menu'>
-                    <a href='/home'>
+                    <NavLink to='/home'>
                         <img id='logo' src={logo} alt='Logo' />
-                    </a>
+                    </NavLink>
                     <button onClick={handleChange} id='icon' href='#'>
                         <i className='fa fa-bars fa-2x'></i>
                     </button>
