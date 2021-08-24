@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/curo-mock/static/css/main.d1d83188.chunk.css",
+    "main.js": "/curo-mock/static/js/main.9996bffd.chunk.js",
+    "main.js.map": "/curo-mock/static/js/main.9996bffd.chunk.js.map",
+    "runtime-main.js": "/curo-mock/static/js/runtime-main.875ab65b.js",
+    "runtime-main.js.map": "/curo-mock/static/js/runtime-main.875ab65b.js.map",
+    "static/js/2.466377c2.chunk.js": "/curo-mock/static/js/2.466377c2.chunk.js",
+    "static/js/2.466377c2.chunk.js.map": "/curo-mock/static/js/2.466377c2.chunk.js.map",
+    "index.html": "/curo-mock/index.html",
+    "static/css/main.d1d83188.chunk.css.map": "/curo-mock/static/css/main.d1d83188.chunk.css.map",
+    "static/js/2.466377c2.chunk.js.LICENSE.txt": "/curo-mock/static/js/2.466377c2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.875ab65b.js",
+    "static/js/2.466377c2.chunk.js",
+    "static/css/main.d1d83188.chunk.css",
+    "static/js/main.9996bffd.chunk.js"
+  ]
+}
